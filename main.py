@@ -8,8 +8,13 @@ def print_names():
     available = build_names()
     pool = NamePool(available)
     print(pool.size())
+
     sample = pool.draw(5)
     print(sample)
+
+    reserved = pool.reserve(sample[1])
+    print(reserved)
+    print(len(pool.reserved))
 
 
 if __name__ == '__main__':

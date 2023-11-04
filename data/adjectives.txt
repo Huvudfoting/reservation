@@ -94,3 +94,6 @@ Leaping
 Jumping
 Charging
 Meditative
+Recursive
+Iterative
+Quadratic
